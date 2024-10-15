@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random User Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Random User</h1>
+            <button id="generate-btn">Generate</button>
+        </div>
+        <div id="user-info">
+            <div class="info-item">
+                <span class="label">👤</span>
+                <span class="value" id="name">John Doe</span>
+                <button class="copy-btn" data-field="name">📋</button>
+            </div>
+            <div class="info-item">
+                <span class="label">✉️</span>
+                <span class="value" id="email">johndoe@example.com</span>
+                <button class="copy-btn" data-field="email">📋</button>
+            </div>
+            <div class="info-item">
+                <span class="label">📞</span>
+                <span class="value" id="phone">123-456-7890</span>
+                <button class="copy-btn" data-field="phone">📋</button>
+            </div>
+            <div class="info-item">
+                <span class="label">🏠</span>
+                <span class="value" id="address">123 Main St, Springfield, USA</span>
+                <button class="copy-btn" data-field="address">📋</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
