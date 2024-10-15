@@ -1,6 +1,7 @@
 # Random User Generator-Chrome Extension
 Overview
 Random User Generator is a Chrome extension that allows users to generate random user information such as names, email addresses, phone numbers, and addresses. The generated information can be easily copied to the clipboard for use in various applications.
+
 ![image](https://github.com/user-attachments/assets/d0421db4-56f7-465f-950c-552ff001de45)
 
 
